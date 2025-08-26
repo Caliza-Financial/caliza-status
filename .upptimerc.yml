@@ -1,21 +1,18 @@
-# Change these first
-owner: caliza-financial # Your GitHub organization or username, where this repository lives
-repo: caliza-status # The name of this repository
+owner: caliza-financial 
+repo: caliza-status 
 
 sites:
   - name: API
     url: https://api.caliza.com/core-api/actuator
   - name: Dashboard
     url: https://dashboard.caliza.com
+
 assignees:
   - leonardocaliza
   - marcusmc
   
-status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
+status-website: 
   cname: status.caliza.com
-  # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/Caliza-Financial/caliza-status/refs/heads/master/assets/caliza-dark-logo.svg
   name: Caliza Status
   introTitle: "Caliza system status"
@@ -36,5 +33,3 @@ status-website:
   themeUrl: /assets/caliza-theme.css
   favicon: https://cdn.prod.website-files.com/677ed676bd7257ea423799b4/67a2a89e4980296d7851dd87_6430439ed754447dba330b58_caliza_favicon.png
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
