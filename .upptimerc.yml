@@ -4,7 +4,7 @@ repo: caliza-status # The name of this repository
 
 sites:
   - name: API
-    url: https://api.caliza.com/core-api/
+    url: https://api.caliza.com/core-api/actuator
   - name: Dashboard
     url: https://dashboard.caliza.com
   
@@ -20,8 +20,16 @@ status-website:
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: Incidents
+      href: https://github.com/$OWNER/$REPO/issues
+    - title: API Docs
+      href: https://docs.caliza.com
+    - title: Support
+      href: mailto:apisupport@caliza.com
+    - title: Security
+      href: mailto:security@caliza.com
+  theme: light
+  themeUrl: /assets/caliza-theme.css
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
