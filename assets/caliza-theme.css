@@ -101,18 +101,6 @@ table, .Table {
 }
 table th, table td { border-color: var(--border) !important; }
 
-/* Footer */
-footer, .Footer {
-  background: transparent !important;
-  border-top: 1px solid var(--border) !important;
-  color: var(--muted) !important;
-}
-
-/* Code blocks */
-code, pre { background: rgba(255,255,255,0.05) !important; border-radius: 8px; }
-
-.Footer a[href*="upptime.js.org"],
-.Footer span,
-.Footer p {
+footer p {
   display: none !important;
 }
