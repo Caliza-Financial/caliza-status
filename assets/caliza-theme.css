@@ -8,9 +8,9 @@
   --brand-700: #362a2a;
 
   /* Dark background & gradient */
-  --bg: #bbcce8;
-  --bg-grad-a: #b4c7e5;   /* subtle left tint */
-  --bg-grad-b: #1F3CA6;   /* subtle right tint */
+  --bg: #000000;
+  --bg-grad-a: #9dbae7;   /* subtle left tint */
+  --bg-grad-b: #0b6dc0;   /* subtle right tint */
 
   /* Surfaces & text */
   --surface: #1A2236;
@@ -22,16 +22,13 @@
   --ok: #16A34A;
   --warn: #F59E0B;
   --down: #EF4444;
-
   --border: #202A3C;
   --shadow: 0 8px 24px rgba(0,0,0,0.45);
 }
 
 html, body, #__next, .App {
-  background: radial-gradient(1200px 600px at 45% 20%, var(--bg-grad-a), transparent),
-                    radial-gradient(1200px 600px at 85% 0%, var(--bg-grad-b), transparent);
-  background-image: radial-gradient(1200px 600px at 45% 20%, var(--bg-grad-a), transparent),
-                    radial-gradient(1200px 600px at 85% 0%, var(--bg-grad-b), transparent);
+  background: radial-gradient(1200px 600px at 25% 20%, var(--bg-grad-a), transparent),
+                    radial-gradient(1200px 600px at 25% 0%, var(--bg-grad-b), transparent);  
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: var(--text) !important;
