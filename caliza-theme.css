@@ -9,8 +9,8 @@
 
   /* Dark background & gradient */
   --bg: #bbcce8;
-  --bg-grad-a: #6c7387;   /* subtle left tint */
-  --bg-grad-b: #546b92;   /* subtle right tint */
+  --bg-grad-a: #b4c7e5;   /* subtle left tint */
+  --bg-grad-b: #1F3CA6;   /* subtle right tint */
 
   /* Surfaces & text */
   --surface: #1A2236;
@@ -28,7 +28,8 @@
 }
 
 html, body, #__next, .App {
-  background: var(--bg) !important; /* base solid color */
+  background: radial-gradient(1200px 600px at 45% 20%, var(--bg-grad-a), transparent),
+                    radial-gradient(1200px 600px at 85% 0%, var(--bg-grad-b), transparent);
   background-image: radial-gradient(1200px 600px at 45% 20%, var(--bg-grad-a), transparent),
                     radial-gradient(1200px 600px at 85% 0%, var(--bg-grad-b), transparent);
   background-repeat: no-repeat;
