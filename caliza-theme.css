@@ -3,18 +3,18 @@
 
 :root {
   /* Brand blues */
-  --brand: rgb(255, 255, 255);
-  --brand-600: #747884;
-  --brand-700: #bcbcbc;
+  --brand: rgb(61 74 86);
+  --brand-600: #2a2525;
+  --brand-700: #362a2a;
 
   /* Dark background & gradient */
-  --bg: #7f91af;
-  --bg-grad-a: #9ab1ef;   /* subtle left tint */
+  --bg: #bbcce8;
+  --bg-grad-a: #6c7387;   /* subtle left tint */
   --bg-grad-b: #546b92;   /* subtle right tint */
 
   /* Surfaces & text */
   --surface: #1A2236;
-  --text: #E2E8F0;
+  --text: #353e4a;
   --text-dim: #94A3B8;
   --muted: #64748B;
 
