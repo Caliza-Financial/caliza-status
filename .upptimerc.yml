@@ -13,10 +13,11 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.caliza.com
   # baseUrl: /your-repo-name
-  logoUrl: https://github.com/Caliza-Financial/caliza-status/blob/master/assets/caliza-dark-logo.svg
+  logoUrl: https://raw.githubusercontent.com/Caliza-Financial/caliza-status/refs/heads/master/assets/caliza-dark-logo.svg
   name: Status Caliza
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  introTitle: "Caliza system status"
+  introMessage: >
+    Public monitoring for the **API** and **Dashboard**. Data updates automatically every 5 minutes.
   navbar:
     - title: Status
       href: /
@@ -28,7 +29,7 @@ status-website:
       href: mailto:apisupport@caliza.com
     - title: Security
       href: mailto:security@caliza.com
-  theme: light
+  theme: dark
   themeUrl: /assets/caliza-theme.css
 
 # Upptime also supports notifications, assigning issues, and more
