@@ -3,14 +3,14 @@
 
 :root {
   /* Brand blues */
-  --brand: #2F56FF;
-  --brand-600: #1F4BFF;
-  --brand-700: #163BDA;
+  --brand: rgb(255, 255, 255);
+  --brand-600: #747884;
+  --brand-700: #bcbcbc;
 
   /* Dark background & gradient */
-  --bg: #0B1220;
-  --bg-grad-a: #141B2E;   /* subtle left tint */
-  --bg-grad-b: #101826;   /* subtle right tint */
+  --bg: #7f91af;
+  --bg-grad-a: #9ab1ef;   /* subtle left tint */
+  --bg-grad-b: #546b92;   /* subtle right tint */
 
   /* Surfaces & text */
   --surface: #1A2236;
@@ -28,11 +28,12 @@
 }
 
 html, body, #__next, .App {
-  background: radial-gradient(1200px 600px at 15% -10%, var(--bg-grad-a), transparent),
-              radial-gradient(1200px 600px at 85% -10%, var(--bg-grad-b), transparent),
-              var(--bg) !important;
+  background: var(--bg) !important; /* base solid color */
+  background-image: radial-gradient(1200px 600px at 45% 20%, var(--bg-grad-a), transparent),
+                    radial-gradient(1200px 600px at 85% 0%, var(--bg-grad-b), transparent);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: var(--text) !important;
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji" !important;
 }
 
 /* Navbar */
@@ -74,14 +75,14 @@ html, body, #__next, .App {
 
 /* Links & buttons */
 a, .link { color: var(--brand) !important; }
-a:hover, .link:hover { color: var(--brand-600) !important; }
+a:hover, .link:hover { color: var(--brand-700) !important; }
 button, .btn {
   background: var(--brand) !important;
   color: #fff !important;
   border-radius: 10px !important;
   border: none !important;
 }
-button:hover, .btn:hover { background: var(--brand-600) !important; }
+button:hover, .btn:hover { background: var(--brand-700) !important; }
 
 /* Charts / sparkline accents */
 svg .stroke-brand,
@@ -103,4 +104,14 @@ table th, table td { border-color: var(--border) !important; }
 
 footer p {
   display: none !important;
+}
+
+footer::before {
+  content: "© " attr(data-year) " Caliza Status";
+  content: "© 2025 Caliza Status"; /* simpler, hardcoded */
+  display: block;
+  text-align: center;
+  color: var(--brand);
+  padding: 1rem 0;
+  font-size: 0.9rem;
 }
