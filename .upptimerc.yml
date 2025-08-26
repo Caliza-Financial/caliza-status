@@ -17,7 +17,7 @@ status-website:
   name: Caliza Status
   introTitle: "Caliza system status"
   introMessage: >
-    Public monitoring for the **API** and **Dashboard**. Data updates automatically every 5 minutes.
+    Public monitoring for the **API** and **Dashboard**. Data updates automatically every 10 minutes.
   navbar:
     - title: Status
       href: /
@@ -29,7 +29,7 @@ status-website:
       href: mailto:apisupport@caliza.com
     - title: Security
       href: mailto:security@caliza.com
-  theme: light
+  theme: dark
   themeUrl: https://status.caliza.com/caliza-theme.css
   favicon: https://cdn.prod.website-files.com/677ed676bd7257ea423799b4/67a2a89e4980296d7851dd87_6430439ed754447dba330b58_caliza_favicon.png
 
