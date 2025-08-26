@@ -5,19 +5,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.caliza.com.ico",
     "slug": "api",
     "status": "up",
-    "uptime": "0.40%",
-    "uptimeDay": "0.40%",
-    "uptimeWeek": "0.40%",
-    "uptimeMonth": "0.40%",
-    "uptimeYear": "0.40%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 287,
     "timeDay": 287,
     "timeWeek": 287,
     "timeMonth": 287,
     "timeYear": 287,
-    "dailyMinutesDown": {
-      "2025-08-26": 13
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Dashboard",
