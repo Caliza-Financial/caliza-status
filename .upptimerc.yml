@@ -13,7 +13,7 @@ assignees:
   
 status-website: 
   cname: status.caliza.com
-  logoUrl: https://raw.githubusercontent.com/Caliza-Financial/caliza-status/refs/heads/master/assets/caliza-light-logo.svg
+  logoUrl: https://raw.githubusercontent.com/Caliza-Financial/caliza-status/refs/heads/master/assets/logo-caliza.svg
   name: Caliza Status
   introTitle: "Caliza system status"
   introMessage: >
