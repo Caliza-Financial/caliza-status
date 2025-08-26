@@ -14,7 +14,7 @@ status-website:
   cname: status.caliza.com
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/Caliza-Financial/caliza-status/refs/heads/master/assets/caliza-dark-logo.svg
-  name: Status Caliza
+  name: Caliza Status
   introTitle: "Caliza system status"
   introMessage: >
     Public monitoring for the **API** and **Dashboard**. Data updates automatically every 5 minutes.
