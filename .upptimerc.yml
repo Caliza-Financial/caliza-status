@@ -4,8 +4,10 @@ repo: caliza-status
 sites:
   - name: API
     url: https://api.caliza.com/core-api/actuator
+    icon: https://raw.githubusercontent.com/Caliza-Financial/caliza-status/refs/heads/master/assets/logo.png
   - name: Dashboard
     url: https://dashboard.caliza.com
+    icon: https://raw.githubusercontent.com/Caliza-Financial/caliza-status/refs/heads/master/assets/logo.png
 
 assignees:
   - leonardocaliza
@@ -13,7 +15,7 @@ assignees:
   
 status-website: 
   cname: status.caliza.com
-  logoUrl: https://raw.githubusercontent.com/Caliza-Financial/caliza-status/refs/heads/master/assets/caliza-only.png
+  logoUrl: https://raw.githubusercontent.com/Caliza-Financial/caliza-status/refs/heads/master/assets/logo.png
   name: Caliza Status
   introTitle: "Caliza system status"
   introMessage: >
