@@ -35,11 +35,3 @@ status-website:
   themeUrl: https://status.caliza.com/caliza-theme.css
   favicon: https://cdn.prod.website-files.com/677ed676bd7257ea423799b4/67a2a89e4980296d7851dd87_6430439ed754447dba330b58_caliza_favicon.png
 
-workflowSchedule:
-  graphs: "0 0 * * *"          # daily
-  responseTime: "0 23 * * *"   # daily
-  staticSite: "0 1 * * *"      # daily
-  summary: "0 0 * * *"         # daily
-  updateTemplate: "0 0 * * *"  # daily
-  updates: "0 3 * * *"         # daily
-  uptime: "*/10 * * * *"       # every 10 minutes
