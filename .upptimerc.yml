@@ -31,6 +31,7 @@ status-website:
       href: mailto:security@caliza.com
   theme: dark
   themeUrl: /assets/caliza-theme.css
+  favicon: https://cdn.prod.website-files.com/677ed676bd7257ea423799b4/67a2a89e4980296d7851dd87_6430439ed754447dba330b58_caliza_favicon.png
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
