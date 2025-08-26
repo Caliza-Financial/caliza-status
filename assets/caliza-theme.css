@@ -1,21 +1,21 @@
-/* Caliza Status Theme — light, blue-forward, English */
+/* Caliza Status Theme — dark, blue-forward */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 :root {
-  /* Caliza blues (approximated from site hero/buttons) */
-  --brand: #2F56FF;   /* primary button blue */
+  /* Brand blues */
+  --brand: #2F56FF;
   --brand-600: #1F4BFF;
   --brand-700: #163BDA;
 
-  /* Light gradient background like the landing hero */
-  --bg: #F7FAFF;           /* page background */
-  --bg-grad-a: #E8F1FF;    /* subtle top-left tint */
-  --bg-grad-b: #F6FBFF;    /* subtle top-right tint */
+  /* Dark background & gradient */
+  --bg: #0B1220;
+  --bg-grad-a: #141B2E;   /* subtle left tint */
+  --bg-grad-b: #101826;   /* subtle right tint */
 
   /* Surfaces & text */
-  --surface: #FFFFFF;
-  --text: #0F172A;
-  --text-dim: #475569;
+  --surface: #1A2236;
+  --text: #E2E8F0;
+  --text-dim: #94A3B8;
   --muted: #64748B;
 
   /* Semantic colors */
@@ -23,20 +23,8 @@
   --warn: #F59E0B;
   --down: #EF4444;
 
-  --border: #E2E8F0;
-  --shadow: 0 8px 24px rgba(2, 8, 23, 0.06);
-}
-
-/* Dark-mode fallback if user forces dark */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #0B1220;
-    --surface: #101826;
-    --text: #E2E8F0;
-    --text-dim: #Cbd5e1;
-    --border: #202A3C;
-    --shadow: 0 8px 24px rgba(0,0,0,0.25);
-  }
+  --border: #202A3C;
+  --shadow: 0 8px 24px rgba(0,0,0,0.45);
 }
 
 html, body, #__next, .App {
@@ -74,15 +62,15 @@ html, body, #__next, .App {
 
 /* Badges */
 .badge, .label, .Tag {
-  background: rgba(47,86,255,0.10) !important;
+  background: rgba(47,86,255,0.15) !important;
   color: var(--brand) !important;
   border: 1px solid rgba(47,86,255,0.35) !important;
   border-radius: 999px !important;
   font-weight: 600 !important;
 }
-.badge--success { background: rgba(22,163,74,0.10) !important; color: var(--ok) !important; border-color: rgba(22,163,74,0.35) !important; }
-.badge--warning { background: rgba(245,158,11,0.10) !important; color: var(--warn) !important; border-color: rgba(245,158,11,0.35) !important; }
-.badge--danger  { background: rgba(239,68,68,0.10) !important; color: var(--down) !important; border-color: rgba(239,68,68,0.35) !important; }
+.badge--success { background: rgba(22,163,74,0.15) !important; color: var(--ok) !important; border-color: rgba(22,163,74,0.35) !important; }
+.badge--warning { background: rgba(245,158,11,0.15) !important; color: var(--warn) !important; border-color: rgba(245,158,11,0.35) !important; }
+.badge--danger  { background: rgba(239,68,68,0.15) !important; color: var(--down) !important; border-color: rgba(239,68,68,0.35) !important; }
 
 /* Links & buttons */
 a, .link { color: var(--brand) !important; }
@@ -121,4 +109,10 @@ footer, .Footer {
 }
 
 /* Code blocks */
-code, pre { background: rgba(2,8,23,0.04) !important; border-radius: 8px; }
+code, pre { background: rgba(255,255,255,0.05) !important; border-radius: 8px; }
+
+.Footer a[href*="upptime.js.org"],
+.Footer span,
+.Footer p {
+  display: none !important;
+}
