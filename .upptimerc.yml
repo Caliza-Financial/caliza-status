@@ -36,10 +36,10 @@ status-website:
   favicon: https://cdn.prod.website-files.com/677ed676bd7257ea423799b4/67a2a89e4980296d7851dd87_6430439ed754447dba330b58_caliza_favicon.png
 
 workflowSchedule:
-  graphs: "0 * * * *"          # hourly
-  responseTime: "15 * * * *"   # hourly (offset from graphs)
-  staticSite: "30 * * * *"     # hourly to publish changes
-  summary: "45 * * * *"        # hourly summary
-  updateTemplate: "0 0 * * *"  # daily
-  updates: "0 3 * * *"         # daily
-  uptime: "*/10 * * * *"       # every 10 minutes
+  graphs: "0 */12 * * *"         # every 12 hours
+  responseTime: "15 */12 * * *"  # every 12 hours, offset 15 min
+  staticSite: "30 */12 * * *"    # every 12 hours, offset 30 min
+  summary: "45 */12 * * *"       # every 12 hours, offset 45 min
+  updateTemplate: "0 0 * * *"    # daily 
+  updates: "0 */12 * * *"        # every 12 hours
+  uptime: "*/10 * * * *"         # every 10 minutes
