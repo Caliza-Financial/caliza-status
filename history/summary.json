@@ -5,19 +5,17 @@
     "icon": "https://raw.githubusercontent.com/Caliza-Financial/caliza-status/refs/heads/master/assets/logo.png",
     "slug": "api",
     "status": "up",
-    "uptime": "99.97%",
-    "uptimeDay": "99.15%",
-    "uptimeWeek": "99.88%",
-    "uptimeMonth": "99.97%",
-    "uptimeYear": "99.97%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 208,
-    "timeDay": 235,
-    "timeWeek": 203,
+    "timeDay": 242,
+    "timeWeek": 210,
     "timeMonth": 208,
     "timeYear": 208,
-    "dailyMinutesDown": {
-      "2025-09-23": 12
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Dashboard",
@@ -30,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 193,
-    "timeDay": 133,
-    "timeWeek": 169,
-    "timeMonth": 193,
-    "timeYear": 193,
+    "time": 192,
+    "timeDay": 127,
+    "timeWeek": 165,
+    "timeMonth": 192,
+    "timeYear": 192,
     "dailyMinutesDown": {}
   }
 ]
