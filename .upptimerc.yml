@@ -32,7 +32,7 @@ status-website:
     - title: Security
       href: mailto:security@caliza.com
     - title: Bug Bounty
-      href: https://github.com/Caliza-Financial/caliza-status/blob/master/assets/BugBounty.pdf
+      href: https://github.com/Caliza-Financial/caliza-status/blob/master/assets/BugBounty.pdf?raw=true
     - title: Trust Center
       href: https://trust.caliza.com
   theme: dark
