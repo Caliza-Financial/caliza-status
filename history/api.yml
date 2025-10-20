@@ -1,7 +1,7 @@
 url: https://api.caliza.com/core-api/actuator
-status: down
-code: 500
-responseTime: 4103
-lastUpdated: 2025-10-20T18:17:00.953Z
+status: up
+code: 200
+responseTime: 139
+lastUpdated: 2025-10-20T18:31:49.328Z
 startTime: 2025-08-26T12:09:51.204Z
 generator: Upptime <https://github.com/upptime/upptime>
