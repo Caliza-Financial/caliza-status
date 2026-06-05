@@ -4,19 +4,20 @@
     "url": "https://api.caliza.com/core-api/actuator",
     "icon": "https://raw.githubusercontent.com/Caliza-Financial/caliza-status/refs/heads/master/assets/logo.png",
     "slug": "api",
-    "status": "down",
-    "uptime": "99.97%",
-    "uptimeDay": "92.14%",
-    "uptimeWeek": "98.88%",
-    "uptimeMonth": "99.74%",
-    "uptimeYear": "99.97%",
-    "time": 209,
-    "timeDay": 127,
+    "status": "up",
+    "uptime": "99.93%",
+    "uptimeDay": "79.02%",
+    "uptimeWeek": "97.00%",
+    "uptimeMonth": "99.31%",
+    "uptimeYear": "99.93%",
+    "time": 208,
+    "timeDay": 113,
     "timeWeek": 153,
     "timeMonth": 180,
-    "timeYear": 209,
+    "timeYear": 208,
     "dailyMinutesDown": {
-      "2026-06-04": 113
+      "2026-06-04": 113,
+      "2026-06-05": 189
     }
   },
   {
@@ -31,9 +32,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 190,
-    "timeDay": 222,
-    "timeWeek": 219,
-    "timeMonth": 192,
+    "timeDay": 207,
+    "timeWeek": 220,
+    "timeMonth": 190,
     "timeYear": 190,
     "dailyMinutesDown": {}
   }
