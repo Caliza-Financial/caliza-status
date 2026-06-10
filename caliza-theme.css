@@ -106,7 +106,7 @@ footer p {
 
 footer::before {
   content: "© " attr(data-year) " Caliza Status";
-  content: "© 2025 Caliza Status"; /* simpler, hardcoded */
+  content: "© 2026 Caliza Status"; /* simpler, hardcoded */
   display: block;
   text-align: center;
   color: var(--brand);
